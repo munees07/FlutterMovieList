@@ -81,16 +81,4 @@ class _MovieListScreenState extends State<MovieListScreen> {
       ),
     );
   }
-
-  Widget listItem(String message) {
-    return Card(
-      child: SizedBox(
-          height: 80,
-          child: Center(
-              child: Text(
-            message,
-            style: const TextStyle(fontSize: 20),
-          ))),
-    );
-  }
 }
